@@ -1,0 +1,51 @@
+.App {
+  font-family: Roboto Mono, monospace, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #818cf8;
+  color: #1e293b;
+}
+
+h1 {
+  color: #831843;
+}
+
+h2 {
+  color: #334155;
+}
+
+input {
+  background-color: #e0e7ff;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  width: 70%;
+  height: 3rem;
+  border: 3px solid #334155;
+  border-radius: 5px;
+}
+
+.meaning {
+  color: #831843;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.supported {
+  display: flex;
+  flex-direction: column;
+}
+
+.supported-text {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.supported-emoji {
+  font-size: 1.5rem;
+  width: 50%;
+  max-width: 250px;
+  margin: auto;
+  padding-top: 10px;
+}
